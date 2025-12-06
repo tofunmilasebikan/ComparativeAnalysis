@@ -1,4 +1,4 @@
-# Classification Model Comparison (Titanic Dataset)
+# Classification Model Comparison (Kaggle Dataset)
 
 This project compares three machine learning models—**Logistic Regression**, **Support Vector Machine (SVM)**, and **Random Forest**—using the kaggle dataset (`train.csv`).
 
@@ -31,4 +31,3 @@ The project includes confusion matrix heatmaps for each model.
 
 ---
 
-## 🔧 How to Run
