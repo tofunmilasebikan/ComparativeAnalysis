@@ -1,0 +1,131 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Background gradient */
+body {
+    background: linear-gradient(135deg, #dff5d4, #c8eab8, #e5f9d7);
+    background-attachment: fixed;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffffdd;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+/* Section spacing */
+.section {
+    margin-top: 50px;
+}
+
+/* Upload box */
+.upload-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #d0e8c8;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Button */
+button {
+    background: #345734;
+    border: none;
+    padding: 12px 28px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #2c4b2c;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+    border-radius: 12px;
+    border: 3px solid #d7ebd0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #eef8e9;
+    text-align: center;
+}
+
+th {
+    background: #b6d9a8;
+    font-weight: 600;
+}
+
+tr:hover td {
+    background: #f2faee;
+}
+
+/* GitHub link button */
+.github-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 20px;
+    background: #1b1b1b;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.github-link:hover {
+    background: #000;
+}
